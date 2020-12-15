@@ -12,7 +12,7 @@ Using Azure functions to fetch json files for meals in Africa
 
 P.S. I'm using windows
 
-### Installation
+## Installation
 
 Check the python version you have.
 
