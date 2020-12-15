@@ -1,0 +1,274 @@
+[
+        {
+		"id": "1",
+		"localSoupName": "",
+		"englishSoupName": "",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "type": "Feature",
+                "geometry": {
+                                "type": "Point",
+                                "coordinates": [ ]
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Nigeria",
+                "states":
+                        [
+                                "Benue",
+                                "Kogi",
+                                "Kwara",
+                                "Nasarawa",
+                                "Niger",
+                                "Plateau",
+                                "Federal Capital Territory"
+                        ],
+		"region": "North Central",
+		"regionName":"Hausa"
+        },
+        {
+		"id": "2",
+		"localSoupName": "",
+		"englishSoupName": "",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "type": "Feature",
+                "geometry": {
+                          "type": "Point",
+                          "coordinates": []
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Nigeria",
+                "states":
+                        [
+                                "Adamawa",
+                                "Bauchi",
+                                "Borno",
+                                "Gombe",
+                                "Taraba",
+                                "Yobe"
+                        ],
+		"region": "North East",
+		"regionName":"Hausa"
+	},
+        {
+		"id": "3",
+		"localSoupName": "Miyan Taushe",
+		"englishSoupName": "Pumpkin Soup",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "country": "Nigeria",
+                "states":
+                        [
+                                "Jigawa",
+                                "Kaduna",
+                                "Kano",
+                                "Katsina",
+                                "Kebbi",
+                                "Sokoto",
+                                "Zamfara"
+                        ],
+		"region": "North West",
+		"regionName":"Hausa"
+	},
+        {
+		"id": "4",
+		"localSoupName": "",
+		"englishSoupName": "",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "type": "Feature",
+                "geometry": {
+                                "type": "Point",
+                                "coordinates": [ ]
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Nigeria",
+                "states":
+                        [
+                                "Abia",
+                                "Anabra",
+                                "Ebonyi",
+                                "Enugu",
+                                "Imo"
+                        ],
+		"region": "South East",
+		"regionName":"Igbo"
+	},
+        {
+		"id": "5",
+		"localSoupName": "Black Soup",
+		"englishSoupName": "",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "type": "Feature",
+                "geometry": {
+                                "type": "Point",
+                                "coordinates": [ ]
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Nigeria",
+                "states":
+                        [
+                                "Akwa Ibom",
+                                "Bayelsa",
+                                "Cross River",
+                                "Rivers",
+                                "Delta",
+                                "Edo"
+                        ],
+		"region": "South South",
+		"regionName":"Igbo"
+	},
+        {
+		"id": "6",
+		"localSoupName": "Egusi Soup",
+		"englishSoupName": "",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "type": "Feature",
+                "geometry": {
+                          "type": "Point",
+                          "coordinates": [ ]
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+                "country": "Nigeria",
+                "states":
+                        [
+                                "Ekiti",
+                                "Lagos",
+                                "Ogun",
+                                "Ondo",
+                                "Osun",
+                                "Oyo"
+                        ],
+		"region": "South West",
+		"regionName":"Yoruba"
+	},
+        {
+		"id": "7",
+		"localSoupName": "",
+		"englishSoupName": "",
+		"affordability": "",
+		"complexity": "",
+		"imageUrl": "",
+		"duration": 60,
+                "ingredients": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "steps": 
+                        [
+                                "",
+                                "",
+                                ""
+                        ],
+                "type": "Feature",
+                "geometry": {
+                          "type": "Point",
+                          "coordinates": [ ]
+                },
+                "properties": {
+                        "name": "Dinagat Islands"
+                },
+		"country": "Nigeria",
+		"region": "All Region",
+		"regionName":"All Region"
+	}
+	
+]

@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@azure/functions": "^1.2.2"
+  }
+}
