@@ -30,7 +30,22 @@ import json
 
 # print(json_file)
 
-with open("meal.json") as json_file:
-    data = json.load(json_file)
-print(data[:1]) 
+#with open("meal.json") as json_file:
+#   data = json.load(json_file)
+#print(data[:1]) 
 
+
+def fetch_meal_data(id: int, key: str= None) -> any:
+    '''
+    Fetch spectific data based on Meals JSON
+    '''
+    with open("meal.json") as json_file:
+        data = json.load(json_file, strict=False)
+        
+    id = id - 1
+    if key == None:
+        result_data = data[id]
+        return result_data
+    
+    result_data = data[id][key]
+    return result_data 
