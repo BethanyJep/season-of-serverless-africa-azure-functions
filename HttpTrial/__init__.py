@@ -7,14 +7,16 @@ def fetch_meal_data(id: int, key: str= None) -> any:
     Fetch specific data based on Meals JSON
     '''
     with open("meal.json") as json_file:
-        data = json.load(json_file)
-    result_data = data[id]   
+        dt = json.load(json_file)
+        data = json.dumps(dt, indent=4, sort_keys=True)
+      
     id = id - 1
     if key == None:
+        result_data = data [id]
         return result_data
     
-    result_data = data[id][key]
-    return result_data 
+    # resultData = data[id][key]
+    # return resultData 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
