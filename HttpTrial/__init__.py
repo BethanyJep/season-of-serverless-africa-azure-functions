@@ -33,8 +33,12 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         # data = str(json.load(open("meal.json")))
+        # loading data directly from json file
         # with open("meal.json", "r") as json_file:
         #     data = str(json.load(json_file))
+        # return func.HttpResponse(data[:15])
+
+        #Using fetch_meal_data function to fetch data
         return func.HttpResponse(fetch_meal_data(15))
 
  
