@@ -2,7 +2,20 @@ import logging
 import json
 
 import azure.functions as func
-
+def fetch_meal_data(id: int, key: str= None) -> any:
+    '''
+    Fetch spectific data based on Meals JSON
+    '''
+    with open("meal.json", "r") as json_file:
+        data = str(json.load(json_file, strict=False))
+        
+    id = id - 1
+    if key == None:
+        result_data = data[id]
+        return result_data
+    
+    result_data = data[id][key]
+    return result_data 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
@@ -20,9 +33,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         # data = str(json.load(open("meal.json")))
-        with open("meal.json", "r") as json_file:
-            data = str(json.load(json_file))
-        return func.HttpResponse(data)
+        # with open("meal.json", "r") as json_file:
+        #     data = str(json.load(json_file))
+        return func.HttpResponse(fetch_meal_data(15))
 
  
 
