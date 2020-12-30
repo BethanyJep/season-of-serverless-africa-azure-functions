@@ -4,14 +4,13 @@ import json
 import azure.functions as func
 def fetch_meal_data(id: int, key: str= None) -> any:
     '''
-    Fetch spectific data based on Meals JSON
+    Fetch specific data based on Meals JSON
     '''
-    with open("meal.json", "r") as json_file:
-        data = str(json.load(json_file, strict=False))
-        
+    with open("meal.json") as json_file:
+        data = json.load(json_file)
+    result_data = data[id]   
     id = id - 1
     if key == None:
-        result_data = data[id]
         return result_data
     
     result_data = data[id][key]
@@ -38,8 +37,12 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         #     data = str(json.load(json_file))
         # return func.HttpResponse(data[:15])
 
+        # with open("meal.json", "r") as json_file:
+        #     data = json.load(json_file)
+        # return func.HttpResponse(data[1])
+
         #Using fetch_meal_data function to fetch data
-        return func.HttpResponse(fetch_meal_data(15))
+        return func.HttpResponse(fetch_meal_data(1))
 
  
 
