@@ -14,13 +14,6 @@ def fetch_meal_data(id: int) -> any:
     return str(data[mealID])
 
 
-# fetch multiple data
-# def fetch_mul_meal_data(valRange: int):
-#     ids = []
-#     for i in range(1, valRange + 1):
-#         id = fetch_meal_data(i)
-#         ids.append(id)
 
-#     return ids 
 
 
